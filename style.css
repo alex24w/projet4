@@ -91,8 +91,8 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
+    background:#81b5f56a;
+    z-index: 0;
 }
 
 .b-parallax {
@@ -362,6 +362,7 @@ a:hover {
     z-index: 2;
 }
 
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -462,7 +463,6 @@ nav .caret {
     margin-top: 10px;
     margin-bottom: 20px;
 }
-
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
@@ -743,12 +743,8 @@ a {
     margin-top: 50px;
 }
 
-.avatar {
-    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
-}
-
 .black-background {
-    background-color: rgba(45, 41, 33, 0.7);
+    background-color: rgba(0, 0, 0, 0.878);
     padding: 40px 40px 40px 40px;
 }
 
@@ -762,7 +758,7 @@ a {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: #8b99c6;
 }
 
 .bgc-atomic-tangerine {
