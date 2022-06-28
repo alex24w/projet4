@@ -484,11 +484,17 @@ nav .caret {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    font-size: 16px;
+    color: #000000;
 }
 .form-group{
     display: flex;
     flex-direction: column;
     padding: 10px;
+}
+.form-group label{
+    color: black;
+    font-size: 16px;
 }
 .formulaire{
     display: flex;
