@@ -31,7 +31,7 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
+    padding: 0px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -43,7 +43,6 @@ a:hover {
     padding-left: 0;
     padding-right: 0;
 }
-
 .bloc-lg {
     padding: 100px 50px;
 }
@@ -91,7 +90,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background:#81b5f56a;
+    background:#81b5f548;
     z-index: 0;
 }
 
@@ -471,6 +470,15 @@ nav .caret {
 .col-sm-6 p{
     font-size: 16px;
 }
+.col-sm-7{
+    display: flex;
+    justify-content: center;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
@@ -686,7 +694,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    
 }
 
 .container {
@@ -723,6 +731,9 @@ a {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
+    border-radius: 15px;
+    width: 100%;
+    
 }
 
 .social {
@@ -776,7 +787,9 @@ a {
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
-
+.bgc-atomic-tangerine-contact{
+    background-color: #f3976caa;
+}
 .tc-white {
     color: #F3976C!important;
 }
@@ -811,7 +824,13 @@ a {
     color: #364577!important;
     border-color: #364577!important;
 }
-
+.titre-contact {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
 .bg-dots-bg {
     background-image: url("img/dots-bg.webp");
 }
